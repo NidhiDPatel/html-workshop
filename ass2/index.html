@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Campus Bites Canteen</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        .welcome {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff8e7;
+            border-bottom: 2px solid #d97706;
+        }
+
+        .welcome h2 {
+            color: #b45309;
+        }
+
+        .order-section {
+            text-align: center;
+            padding: 30px;
+        }
+
+        .order-section input,
+        .order-section textarea {
+            width: 80%;
+            max-width: 500px;
+            padding: 10px;
+            margin: 8px;
+            border: 1px solid #999;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <div class="header">
+
+        <div class="logo">
+            🍴
+        </div>
+
+        <div class="canteen-title">
+            <h1>Campus Bites</h1>
+            <p>Fresh Food • Great Taste • Student Friendly</p>
+        </div>
+
+    </div>
+
+
+    <!-- WELCOME SECTION -->
+    <div class="welcome">
+
+        <h2>Welcome to Campus Bites Canteen!</h2>
+
+        <p>
+            Enjoy delicious and affordable food prepared fresh every day.
+        </p>
+
+        <a href="#order" class="order-link">
+            Order Now ↓
+        </a>
+
+    </div>
+
+
+    <!-- MENU SECTION -->
+    <div class="menu-container">
+
+        <h2 class="menu-heading">Our Menu</h2>
+
+
+        <!-- BREAKFAST -->
+        <div class="menu-category breakfast">
+
+            <h2>🍳 Breakfast</h2>
+
+            <div class="featured">
+
+                <img
+                    src="https://static.toiimg.com/thumb/54289752.cms?imgsize=495844&width=800&height=800"
+                    alt="Dosa"
+                >
+
+                <div>
+                    <h3>Featured Dish: Masala Dosa</h3>
+                    <p>
+                        Crispy dosa served with delicious chutney and sambar.
+                    </p>
+                </div>
+
+            </div>
+
+            <table>
+
+                <tr>
+                    <th>Item Name</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                </tr>
+
+                <tr>
+                    <td>Masala Dosa</td>
+                    <td>₹50</td>
+                    <td class="available">Available</td>
+                </tr>
+
+                <tr>
+                    <td>Idli Sambar</td>
+                    <td>₹35</td>
+                    <td class="available">Available</td>
+                </tr>
+
+                <tr>
+                    <td>Poha</td>
+                    <td>₹30</td>
+                    <td class="available">Available</td>
+                </tr>
+
+                <tr>
+                    <td>Vada</td>
+                    <td>₹25</td>
+                    <td class="available">Available</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+
+        <!-- LUNCH -->
+        <div class="menu-category lunch">
+
+            <h2>🍛 Lunch</h2>
+
+            <div class="featured">
+
+                <img
+                    src="https://media.istockphoto.com/id/179085494/photo/indian-biryani.jpg?s=612x612&w=0&k=20&c=VJAUfiuavFYB7PXwisvUhLqWFJ20-9m087-czUJp9Fs="
+                    alt="Indian Biryani"
+                >
+
+                <div>
+                    <h3>Featured Dish: Veg Biryani</h3>
+                    <p>
+                        Aromatic rice cooked with vegetables and Indian spices.
+                    </p>
+                </div>
+
+            </div>
+
+            <table>
+
+                <tr>
+                    <th>Item Name</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                </tr>
+
+                <tr>
+                    <td>Veg Biryani</td>
+                    <td>₹80</td>
+                    <td class="available">Available</td>
+                </tr>
+
+                <tr>
+                    <td>Veg Thali</td>
+                    <td>₹90</td>
+                    <td class="available">Available</td>
+                </tr>
+
+                <tr>
+                    <td>Fried Rice</td>
+                    <td>₹70</td>
+                    <td class="available">Available</td>
+                </tr>
+
+                <tr>
+                    <td>Curd Rice</td>
+                    <td>₹45</td>
+                    <td class="not-available">Not Available</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+
+        <!-- SNACKS -->
+        <div class="menu-category snacks">
+
+            <h2>🍔 Snacks</h2>
+
+            <div class="featured">
+
+                <img
+                    src="https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80"
+                    alt="Sandwich"
+                >
+
+                <div>
+                    <h3>Featured Dish: Grilled Sandwich</h3>
+                    <p>
+                        Crispy grilled sandwich filled with fresh vegetables.
+                    </p>
+                </div>
+
+            </div>
+
+            <table>
+
+                <tr>
+                    <th>Item Name</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                </tr>
+
+                <tr>
+                    <td>Veg Sandwich</td>
+                    <td>₹45</td>
+                    <td class="available">Available</td>
+                </tr>
+
+                <tr>
+                    <td>Samosa</td>
+                    <td>₹20</td>
+                    <td class="available">Available</td>
+                </tr>
+
+                <tr>
+                    <td>French Fries</td>
+                    <td>₹50</td>
+                    <td class="available">Available</td>
+                </tr>
+
+                <tr>
+                    <td>Veg Burger</td>
+                    <td>₹60</td>
+                    <td class="available">Available</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+
+        <!-- BEVERAGES -->
+        <div class="menu-category beverages">
+
+            <h2>🥤 Beverages</h2>
+
+            <div class="featured">
+
+                <img
+                    src="https://images.unsplash.com/photo-1621506289937-a8e4df240d0b?auto=format&fit=crop&w=600&q=80"
+                    alt="Fresh Juice"
+                >
+
+                <div>
+                    <h3>Featured Drink: Fresh Orange Juice</h3>
+                    <p>
+                        Refreshing orange juice made with fresh oranges.
+                    </p>
+                </div>
+
+            </div>
+
+            <table>
+
+                <tr>
+                    <th>Item Name</th>
+                    <th>Price</th>
+                    <th>Availability</th>
+                </tr>
+
+                <tr>
+                    <td>Fresh Orange Juice</td>
+                    <td>₹40</td>
+                    <td class="available">Available</td>
+                </tr>
+
+                <tr>
+                    <td>Cold Coffee</td>
+                    <td>₹50</td>
+                    <td class="available">Available</td>
+                </tr>
+
+                <tr>
+                    <td>Tea</td>
+                    <td>₹15</td>
+                    <td class="available">Available</td>
+                </tr>
+
+                <tr>
+                    <td>Cold Drink</td>
+                    <td>₹30</td>
+                    <td class="available">Available</td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+
+
+    <!-- ORDER SECTION -->
+    <div class="order-section" id="order">
+
+        <h2>🛒 Order Now</h2>
+
+        <p>Fill in your details to place an order.</p>
+
+        <form>
+
+            <input
+                type="text"
+                placeholder="Enter your name"
+                required
+            >
+
+            <br>
+
+            <input
+                type="text"
+                placeholder="Enter your food item"
+                required
+            >
+
+            <br>
+
+            <input
+                type="number"
+                placeholder="Quantity"
+                min="1"
+                required
+            >
+
+            <br>
+
+            <textarea
+                placeholder="Special instructions"
+                rows="4"
+            ></textarea>
+
+            <br>
+
+            <button type="submit">
+                Place Order
+            </button>
+
+        </form>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="footer">
+
+        <h3>📞 Contact Us</h3>
+
+        <p>Phone: +91 98765 43210</p>
+
+        <p>Email: campusbites@example.com</p>
+
+        <p>📍 College Campus, Main Block</p>
+
+        <p>
+            ⏰ Timings: Monday - Saturday | 8:00 AM - 6:00 PM
+        </p>
+
+        <p class="copyright">
+            © 2026 Campus Bites Canteen. All Rights Reserved.
+        </p>
+
+    </div>
+
+</body>
+</html>
